@@ -1,0 +1,85 @@
+
+Do not use STL.
+
+=============================================================================================
+
+1.Write a program to implement DCLL with following functions with switch case.
+-addatbeg()
+-addatend()
+-addbypos()
+-delatbeg()
+-delatend()
+-delbypos()
+-search()
+-count()
+---------------------------------------------------------------------------------------------
+1.1)Scan a string from user.Check if it is pallindrome or not.
+
+1.2)Scan a string from user.Reverse it.Print it.
+---------------------------------------------------------------------------------------------
+2.Create 2 DLL.Merge them in third DLL.
+Do not use library function to reverse the string.
+---------------------------------------------------------------------------------------------
+3.Scan infix expression from user.Convert it into postfix expression.
+Evaluate this postfix expression.
+(Condition=Only 4 operators are to be used here(+,-,*,/).
+All operands are of single digit).
+---------------------------------------------------------------------------------------------
+4.
+class Number
+{
+	public:
+		int x,y;
+};
+---------------------------------------------------------------------------------------------
+Create an SLL of different objects of class Number.
+Each objects data must be scanned from user.
+Do not define create() function.
+Then implement following functions function.
+1)search() - Scan values for x and y from user.Search the object containg these values.
+2)delete_value() - Scan values for x and y from user.Delete the object containg these values.
+Implement switch case.
+---------------------------------------------------------------------------------------------
+5.
+class Distance
+{
+	public:
+		int km;
+		int mtr;
+};
+
+Create an SLL of different distances.
+Scan distances from user.
+Do not define create function.
+Then implement following functions.
+1)findmax()-this will find the maximum distance 
+2)findmin()-this will find the minimum distance
+3)sort()-this will sort the list according to distance
+Implement switch case.
+---------------------------------------------------------------------------------------------
+6.Print SLL in reverse order using stack.
+Stack you will use here must be implemented using linked list.
+---------------------------------------------------------------------------------------------
+7.
+class Student
+{
+	public:
+		char name[20];
+		int age;
+};
+Create an SLL of different objects of Student.
+Do not define create() function.Use addatbeg() or addatend()
+to add new Node.
+Implement following functions.
+-search by name
+-Print all students below specific age.
+This age will be input from user.
+-Delete student by name.
+---------------------------------------------------------------------------------------------
+8.Scan 2 binary from user.Create their DLL.
+Write a program to perform addition of these 2 binaries
+and create third DLL.
+If it's difficult using DLL,you can use SLL.
+---------------------------------------------------------------------------------------------
+9.Scan a parenthesized expression from user.And check if it is correctly parenthesized or not.
+---------------------------------------------------------------------------------------------
